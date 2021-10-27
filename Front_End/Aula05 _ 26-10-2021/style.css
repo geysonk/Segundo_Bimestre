@@ -1,0 +1,37 @@
+.main-title {
+
+    color: #2a2aca;
+    background-color: #baa8a6;
+    font-size: 42px;
+}
+.second-title {
+
+color: #142e2e;
+font-size: 30px;
+
+}
+
+.post {
+
+background-color: rgba(6, 108, 191, 0.385);
+
+}
+
+.post h1{
+
+    color: #04335a;
+    font-size: 36px;
+}
+
+.post a{
+
+color: #ff6347;
+background-color: yellow;
+
+}
+
+ul, ol{
+
+    background-color: #d8bfd8;
+
+}
