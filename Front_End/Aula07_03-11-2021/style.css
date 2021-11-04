@@ -1,14 +1,21 @@
+* {
 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
 .fundo {
-    background-color:rgb(204, 239, 240);
+    background-color:#cceff0;
     text-align: center;
 }
 .main-title {
     color: #0b0b4d;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: white;
+    background-color: #ffffff;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 15px;
+    margin: 12px;
 }
 .main-subtitle {
     color: #0b0b4d;
@@ -23,5 +30,14 @@
     margin: 15px 15px;
     border-radius: 10px;
 }
-.botao {  
+
+button{  
+    color:#ffffff;
+    background-color: #000000;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 12px;
+    font-size: 24px;
+    width: 500px;
+    border: 4px groove #070842;
 }
