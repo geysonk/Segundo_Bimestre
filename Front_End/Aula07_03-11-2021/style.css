@@ -1,0 +1,27 @@
+
+.fundo {
+    background-color:rgb(204, 239, 240);
+    text-align: center;
+}
+.main-title {
+    color: #0b0b4d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.main-subtitle {
+    color: #0b0b4d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.img1 {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-image: url(https://cer.sebrae.com.br/wp-content/uploads/2020/05/GettyImages-507065943.jpg);
+    margin: 15px 15px;
+    border-radius: 10px;
+}
+.botao {  
+}
