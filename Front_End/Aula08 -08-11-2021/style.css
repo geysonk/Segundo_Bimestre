@@ -1,0 +1,34 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.square {
+
+    height: 200px;
+    width: 200px;
+    
+
+}
+
+.first-square {
+
+    background-color: blue;
+
+}
+
+.second-square {
+
+    background-color:red;
+    position: absolute;
+    left: 20%;
+}
+
+.third-square {
+
+    background-color: black;
+
+}
