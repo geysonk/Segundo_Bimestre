@@ -1,0 +1,58 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #f5f5f5;
+    text-align: center;
+    height: 1000px;
+
+}
+
+.img {
+
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-image: url(https://png.pngtree.com/png-clipart/20180518/ourlarge/pngtree-twitter-logo-icon-png-image_3570310.png);
+    position: relative;
+    left: 570px;
+
+}
+
+.square1 {
+
+    height: 500px;
+    width: 500px;
+    background-color: rgba(255, 228, 196, 0.315);
+    position: absolute;
+    left: 420px;
+    border-radius: 30px;  
+
+}
+
+form h1 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    
+}
+
+form div {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+
+form button {
+
+    margin-inline: 10px;
+    width: 100px;
+
+}
