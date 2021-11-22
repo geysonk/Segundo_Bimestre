@@ -56,3 +56,7 @@ form button:hover{
     color: white;
     background-color: #ff5a60f1;
 }
+
+input:focus {
+    color: blue;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    
+    <main>
+    
+        <div class="img"></div>
+        
+
+        <form>
+
+            <h1>Dados do pedido</h1>
+            <p class="main-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam corporis explicabo sapiente illum illo eveniet earum, odit eligendi quam alias adipisci quos dolores provident at! Velit, sit laudantium excepturi natus, voluptates impedit a doloremque nesciunt nemo maiores magnam! Pariatur voluptatibus, modi minima quia esse quas delectus vero quidem dolores quisquam!</p>
+
+            <fieldset class="box1">
+
+                <legend>Dados Pessoais</legend>
+    
+                <div class="main-name">
+
+                    <label  for="username"><strong>Nome</strong></label>
+                    <input class="custon-input" type="text" name="username" id="username">
+                
+                </div>
+    
+                <div>
+
+                    <label for="birthDate">Data de Nascimento</label>
+                    <input type="date" name="birthDate" id="birthDate">
+
+                </div>
+
+                <div>
+    
+                    <label for="userEmail"><strong>E-mail</strong></label>
+                    <input type="email" name="userEmail" id="userEmail">
+    
+                </div>
+    
+                <div>
+                     
+                    <label for="password"><strong>Senha</strong></label>
+                    <input type="password" name="password" id="password">
+                   
+                </div>
+    
+                <div>
+    
+                    <label for="userDescription"><strong>Sujestão</strong></label>
+                    <textarea name="userDescription" id ="userDescription"></textarea>
+    
+                </div>
+
+            </fieldset>
+
+            <fieldset class="box2">
+
+                <legend>Pagamentos</legend>
+
+<!-- Tipo radio (excepcionalmente para esse caso o label vem após o imput)-->
+    
+                <div>
+
+                    <input type="radio" name="payment" id="credit" checked>
+                    <label for="credit">Crédito</label>                    
+                    
+                    <input type="radio" name="payment" id="debit">
+                    <label for="debit">Débito</label>
+                    
+                    <input type="radio" name="payment" id="bill">
+                    <label for="bill">Boleto</label>
+                </div>
+
+                <div class="list">
+                <!-- Tipo select -->
+                    <label for="userPlan"><strong>Nível de Satisfação</strong></label>
+                                            
+                    <select name="userPlan" id="userPlan">
+                            
+                        <option value="1">Satisfeito</option>
+                        <option value="2">Indiferente</option>
+                        <option value="3">Insatisfeito</option>
+                        
+                    </select>
+                    
+                </div>
+
+            </fieldset>
+
+            <fieldset class="box3">
+
+                <legend>Entregas</legend>
+
+                <div class="tax1">
+                    <input type="radio" name="tax" id="empresax" checked>
+                    <label for="empresax">EmpresaX</label>
+
+                    <input type="radio" name="tax" id="empresay">
+                    <label for="empresay">EmpresaY</label>
+
+                    <input type="radio" name="tax" id="empresaz">
+                    <label for="empresaz">EmpresaZ</label>
+                </div>
+
+
+    
+            </fieldset>
+
+            <fieldset class="box4">
+
+                <legend>Recomendados</legend>
+                <!-- Tipo checkbox -->
+                <div>
+
+                    <input type="checkbox" name="recommended" id="firstProduct">
+                    <label for="firstProduct">Carregador</label>
+
+                    <input type="checkbox" name="recommended" id="secondProduct">
+                    <label for="secondProduct">Fone</label>
+
+                    <input type="checkbox" name="recommended" id="thirdProduct">
+                    <label for="thirdProduct">Película</label>
+
+                </div>
+
+            </fieldset>
+
+            <div class="button">
+    
+                <button type="reset">Limpar</button>
+                <button type="submit">Cadastrar</button>
+
+            </div>
+    
+        </form>
+        
+
+    </main>
+
+</body>
+</html>
