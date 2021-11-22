@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb-cadastro-locação</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<header class="main-header">
+    <img src="css/logo.png" alt="logo empresa">
+</header>
+
+<body>
+    
+    <form>
+
+        <p>
+        <label for="usuario">Nome:</label>
+        <input type="text" name="usuario" id="usuario">
+        </p>
+
+        <p>
+        <label for="email">E-mail:</label>
+        <input type="email" name="e-mail" id="email">
+        </p>   
+        
+        <p>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+        </p>
+
+        <p class="ls">
+        <label for="tipo">Tipo de imóvel</label>
+        <select name="tipo" id="tipo">
+
+            <option value="casa">Casa</option>
+            <option value="kitnet">Kitnet</option>
+            <option value="apartamento">Apartamento</option>
+            <option value="quarto">Quarto</option>
+
+        </select>
+        </p>
+
+        <p>
+        <label for="sugestion">Descrição imóvel:</label>
+        <textarea name="sugestion" id="sugestion"></textarea>
+        </p>
+
+
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</body>
+</html>

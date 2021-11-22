@@ -1,0 +1,115 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+
+    background-color: #f5f5f5;
+    text-align: center;
+    height: 1000px;
+
+}
+
+.img {
+
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-image: url(https://png.pngtree.com/png-clipart/20180518/ourlarge/pngtree-twitter-logo-icon-png-image_3570310.png);
+    position: relative;
+    left: 570px;
+
+}
+
+form h1 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    
+}
+
+.main-text {
+
+    padding: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+
+.main-text::first-letter {
+
+    font-size: 20px;
+    color: blue;
+
+}
+
+.box1 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    width: 500px;
+    position: relative;
+    left: 400px;
+    
+}
+
+.user-name {
+
+    width: 200px;
+    /* background-color: blue; */
+    border-style:ridge
+
+}
+
+.box2 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin-top: 20px;
+    width: 500px;
+    position: relative;
+    left: 400px;
+}
+
+.box3 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin-top: 20px;
+    width: 500px;
+    position: relative;
+    left: 400px;
+}
+
+.box4 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin-top: 20px;
+    width: 500px;
+    position: relative;
+    left: 400px;
+}
+.button {
+
+    margin-top: 20px;
+    width: 500px;
+    display: flex;
+    position: relative;
+    left: 600px;
+    gap: 20px;
+
+}
+
+.tax1,.dates {
+
+margin-top: 20px;
+
+}
