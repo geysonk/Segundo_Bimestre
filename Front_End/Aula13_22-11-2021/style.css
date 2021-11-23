@@ -1,0 +1,90 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+
+body {
+
+    background-color: black;
+
+}
+
+main {
+
+    padding: 72px;
+
+}
+
+@keyframes float {
+    
+    0% {
+
+        transform: translate(0,-50px);
+
+    }
+
+    50% {
+
+        transform: translate(0, 50px);
+    }
+
+    100% {
+
+        transform: translate(0, -50px
+        );
+
+    }
+
+}
+
+.ghost {
+
+    font-size: 200px;
+    text-align: center;
+    display: block;
+    margin-bottom: 32px;
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+
+}
+
+.main-button {
+
+    color: white;
+    border: 0;
+    padding: 24px;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: rgba(53, 53, 136, 0.487);
+    transition-duration: .5s ease-in-out;
+    /* transition-delay: 1s; */
+    /* transition-property: background; */
+    transition-timing-function: ease-in-out ;
+    /* suavização de elementos */
+       
+    /* transform-origin: top left; */
+
+}
+
+.main-button:hover {
+
+background-color: rgb(75, 75, 131);
+transform: rotate(-5deg)
+
+
+/* skew-aceita ângulos skew(-30deg)*/
+/* scale(1.05) rotate(-5deg) */
+
+}
+
+p {
+
+    color: white;
+    font-size: 22px;
+    margin-top: 24px;
+
+}
