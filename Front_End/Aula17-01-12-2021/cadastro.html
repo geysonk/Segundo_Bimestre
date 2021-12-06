@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="./css/cadastro-style.css">
+    </head>
+
+    <body>
+
+        <h1>Picos</h1>
+
+        <h2>Cadastro</h2>
+ 
+
+        <main>
+            
+            <form class="editGeral">
+
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+
+                    <div>
+                        <label for="username">Nome completo</label>
+                        <input type="text" name="username" id="username" class="custom-input">
+                    </div>
+        
+                    <div>
+                        <label for="userEmail">Email</label>
+                        <input type="email" name="userEmail"  id="userEmail" class="custom-input">
+                    </div>
+        
+                    <div>
+                        <label for="userTelephone">Telefone</label>
+                        <input type="tel" name="userTelephone" id="userTelephone" class="custom-input">
+                    </div>
+        
+                    <div>
+                        <label for="userBirth">Data de Nascimento</label>
+                        <input type="date" name="userBirth" id="userBirth" class="custom-tel">
+                    </div>
+
+                    <div>                
+                        <label for="major"> maior de idade </label>
+                        <input type="radio" name= "maioridade" id="major"> 
+        
+                        <label for="minor"> menor de idade </label>
+                        <input type="radio" name= "maioridade" id="minor"> 
+                    </div>
+
+                    <div>
+                        <label for="userObservacao">Observação</label>
+                        <textarea name="userObservacao" id="userObservacao" class="custom-input"></textarea>
+                    </div>
+                
+        
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>Turismo</legend>
+
+                    <div>
+                        <label for="userType">Categoria</label>
+                        <select name="userType" id="userType">
+                            <option value="1">Residente</option>
+                            <option value="2">Estudante</option>
+                            <option value="3">Turista</option>
+                        </select>
+                    </div>
+
+                    <label for="">Pontos Turísticos</label>
+                <div class="div-places">
+                    <input type="checkbox" name="places" id="morro">
+                    <label for="morro">Morro da Mariana</label>
+
+                    <input type="checkbox" name="places" id="casa">
+                    <label for="casa">Casa do Dr. Fonseca</label>
+
+                    <input type="checkbox" name="places" id="museu">
+                    <label for="museu">Museu Ozildo Albano</label>
+
+                    <input type="checkbox" name="places" id="catedral">
+                    <label for="catedral">Catedral de Nossa Senhora dos Remédios</label>
+
+                </div>
+
+            </fieldset>
+
+                
+            <footer class="button-input">
+
+                <button type="reset">Limpar</button>
+                <button type="submit">Cadastrar</button>
+
+            </footer>
+
+            </form>
+
+
+            
+
+        </main>
+        
+    </body>
+
+</html>
