@@ -60,19 +60,17 @@ const arquivos = [
     }
   ]
 
- 
+console.log("1º")
 arquivos.sort(function(a, b) {
     if (a.altura>b.altura) return 1;
     if (a.altura<b.altura) return -1;
     return 0;
 });
 
-// console.log(arquivos)
-
-// console.log("Maior altura - "+arquivos[0].altura+" e "+ "Menor altura - "+arquivos[9].altura)
+console.log("Menor altura - "+arquivos[0].altura+" e "+ "Maior altura - "+arquivos[9].altura)
 
 
-// 2
+console.log("2º")
 
 let sexo1 = arquivos.filter(function(x) {
     if(x.sexo=="F"){
@@ -81,22 +79,22 @@ let sexo1 = arquivos.filter(function(x) {
     
 });
 
-// console.log(sexo1);
-
 let media = sexo1.map(function(z){
     return z.altura
 });
 
-let media2 = media.reduce(function(a, b){
-    return a+b/media.length;
-});
-console.log("A média de altura das mulheres é "+media2)
+let comprimentoArray = media.length
 
-// 3
+let media2 = media.reduce(function(a, b){
+    return a+b
+});
+console.log("A média de altura das mulheres é "+media2/comprimentoArray)
+
+console.log("3º")
 let sexo2 = arquivos.filter(function(x) {
     if(x.sexo=="M"){
         return  x;
     }
 });
-console.log("Existem "+sexo2+" homens!")
+console.log("Existem "+sexo2.length+" homens!")
 
