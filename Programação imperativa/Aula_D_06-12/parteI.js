@@ -98,3 +98,4 @@ let sexo2 = arquivos.filter(function(x) {
 });
 console.log("Existem "+sexo2.length+" homens!")
 
+
