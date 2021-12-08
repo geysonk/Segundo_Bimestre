@@ -21,6 +21,7 @@ espectadores.push(new Espectador(15,'regular'));
 espectadores.push(new Espectador(22,'ótimo'));
 espectadores.push(new Espectador(23,'bom'));
 
+
 let var1 = espectadores.filter(function(x) {
     if(x.opiniao=="ótimo"){
         return  x;

@@ -50,4 +50,4 @@ function tempoDePreparo(tipoComida, tempoPreparo) {
          return ("Prato inexistente!")
      }
      }
-console.log(tempoDePreparo('Macarrão',7))
+console.log(tempoDePreparo('Macarrão',7)) 
