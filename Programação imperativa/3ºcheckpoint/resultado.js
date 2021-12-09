@@ -29,7 +29,7 @@ let cecilia0 = new Aluno('Cecília', 1, [9, 7, 9, 6]);
 // console.log(curso.listaEstudantes); 
 
 //teste se o metodo adicionarAluno  adiciona varios alunos de uma vez esta funcionando:
-console.log(curso);
+// console.log(curso);
 // curso.adicionarAluno(rodrigo, joao, douglas, barril, gabi, maria,marcela,juliane,debora,eva,moer);
 // console.log(curso.listaEstudantes);
 
@@ -46,4 +46,4 @@ resultado = (aluno) => {
 
 curso.listaEstudantes.forEach((elemento) => resultado(elemento));
 
-// resultado(geyson0)
+resultado(geyson0)

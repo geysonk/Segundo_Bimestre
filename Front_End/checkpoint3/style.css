@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+    background-color: #363636;
+    color: white;
+    text-align: center;
+    padding-left: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row img {
+    height: 24px;
+    width: 24px;
+}
+
+.col h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.col p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}

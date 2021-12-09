@@ -1,4 +1,4 @@
-let Aluno = require('./alunos')
+let Aluno = require('./alunos2')
 
 // Passo 3 (objeto literal)
 
@@ -10,9 +10,9 @@ let curso = {
 
 // Passo 4
 
-    adicionarAluno: function(...objetoAluno) {
-        this.listaEstudantes.push(...objetoAluno)
-    },
+    adicionarAluno: (nome, qtdfaltas, notas) => {
+            curso.listaEstudantes.push(new Aluno(nome, qtdfaltas, notas));
+        },
 
 // Passo 5 (método)
 
@@ -38,4 +38,6 @@ let curso = {
     }
 }
 
+
+// console.log(curso.listaEstudantes)
 module.exports = curso;
