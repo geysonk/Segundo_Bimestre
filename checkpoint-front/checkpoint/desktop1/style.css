@@ -44,9 +44,9 @@ body {
     background: #F4F4F4;
     border-radius: 12px;
     width: 350px;   
-    height: 200px;
+    height: 300px;
     position: absolute;
-    top: 180px;
+    top: 350px;
     z-index: 20;
 }
 
@@ -65,7 +65,7 @@ body {
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
-    color: #000000bf;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 .new-button {
@@ -162,7 +162,6 @@ footer {
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    color: #ffffffbf;
 } 
 
 .text {

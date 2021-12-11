@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Roboto:wght@300;400;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.imagem-top {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    margin-top: 50px;
+}
+
+.main-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000000;
+}
+
+.main-subtitle, .style-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+article p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.main-content{
+    width: 1000px;
+    position: relative;
+    left: 200px;
+}
+
+.main-content h1, h2 {
+    margin-top: 20px;
+}
+
+.main-content h2 {
+    margin-bottom: 80px;
+}
+
+.style-title {
+    margin-top: 32px;
+}
+
+.main-video {
+    position: relative;
+    left: -20px;
+    border-radius: 12px;
+    margin: 32px;
+    width: 1000px;
+    height: 500px;
+}
+
+
+
+footer {
+
+    height: 360px;
+    background: #171717;
+
+}
+
+.test1 {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    padding-top: 50px;
+}
+.test1 .i1, .i2, .i3 {
+    padding-top: 30px;
+}
+
+.i1 {
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.i2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.i3 {
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.i1 h1, .i2 h1, .i3 h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.i1 p, .i2 p, .i3 p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #ffffffbf;
+}
+
+.main-footer a img {
+    height: 24px;
+    width: 24px;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+.main-footer a img:hover{
+    opacity: 1;
+}
+
+.col p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffffbf;
+} 
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    padding: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;    
+    line-height: 28px;
+    color: #ffffff80;
+    text-align: center;
+}
