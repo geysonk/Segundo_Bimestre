@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Roboto:wght@300;400;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.main-grid h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000000;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.grid-images {
+    padding: 20px 10px 40px;
+    justify-content: center;
+}
+
+.coluns {
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #E5E5E5;
+    margin-bottom: 110px;
+    
+}
+
+.coluns img {
+    width: 350px;
+    /* height: 511.14px; */
+}
+
+
+.card-image {
+    background: #F4F4F4;
+    border-radius: 12px;
+    width: 350px;   
+    height: 200px;
+    position: absolute;
+    top: 180px;
+    z-index: 20;
+}
+
+.card-image h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.card-image p {
+    font-family: Roboto;
+    font-style: normal; 
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000bf;
+}
+
+.new-button {
+    width: 320px;
+    height: 59.3px;
+    border-radius: 12px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+
+
+
+footer {
+
+    height: 360px;
+    background: #171717;
+
+}
+
+.test1 {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    padding-top: 50px;
+}
+.test1 .i1, .i2, .i3 {
+    padding-top: 30px;
+}
+
+.i1 {
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.i2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.i3 {
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.i1 h1, .i2 h1, .i3 h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.i1 p, .i2 p, .i3 p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #ffffffbf;
+}
+
+.main-footer a img {
+    height: 24px;
+    width: 24px;
+    opacity: 0.5;
+}
+
+.main-footer a img:hover{
+    opacity: 1;
+}
+
+.col p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffffbf;
+} 
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    padding: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;    
+    line-height: 28px;
+    color: #ffffff80;
+    text-align: center;
+}
