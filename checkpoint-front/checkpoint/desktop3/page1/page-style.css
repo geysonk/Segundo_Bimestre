@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(231, 228, 228);;
+}
+
 header{
 
     position: fixed;
@@ -62,6 +66,7 @@ article p {
     font-size: 18px;
     line-height: 21px;
     color: rgba(0, 0, 0, 0.75);
+    text-align: justify;
 }
 
 .main-content{
@@ -95,7 +100,7 @@ article p {
 
 footer {
 
-    height: 360px;
+    height: 300px;
     background: #171717;
 
 }
@@ -104,7 +109,6 @@ footer {
     display: flex;
     gap: 200px;
     justify-content: center;
-    padding-top: 50px;
 }
 .test1 .i1, .i2, .i3 {
     padding-top: 30px;
@@ -176,7 +180,7 @@ footer {
 
 .text {
     font-family: 'Roboto', sans-serif;
-    padding: 50px;
+    padding: 30px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;    

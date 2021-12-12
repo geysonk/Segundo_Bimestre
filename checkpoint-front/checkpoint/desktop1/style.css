@@ -92,29 +92,31 @@ header{
     position: absolute;
     top: 2150px; 
     color: #FFFFFF;
-    width: 1300px;
+    width: 1200px;
     opacity: 1;
+    left: 40px;
+
 }
 
 .second-article h1, p {
     position: relative;
     left: 30px;
-    /* width: 2000px; */
-    /* O problema é aqui */
+    margin-top: 10px;
 }
 
 .second-article p {
     font-family: Roboto;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 300px;
     font-size: 24px;
     line-height: 28px;
+    text-align: justify;
 
 
 }
 .img2-paralax {
     background-image: url("pexels-pixabay-220326.jpg");
-    height: 400px;
+    height: 250px;
     opacity: 0.4;
     background-attachment: fixed;
     background-position: center;
@@ -200,13 +202,11 @@ main {
     width: 320px;
     height: 59.3px;
     border-radius: 12px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 5px;
     
 }
 
@@ -236,24 +236,7 @@ footer {
     line-height: 28px;
 }
 
-.i2 {
-    text-align: center;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    
-}
-
-.i3 {
-    text-align: center;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-}
-
-.i1 h1, .i2 h1, .i3 h1 {
+.i1 h1{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -263,7 +246,7 @@ footer {
     color: #FFFFFF;
 }
 
-.i1 h2, .i2 h2, .i3 h2 {
+.i1 h2{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
