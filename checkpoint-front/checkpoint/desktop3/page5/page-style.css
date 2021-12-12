@@ -35,6 +35,7 @@ header{
     width: 100%;
     object-fit: cover;
     object-position: top;
+    margin-top: 50px;
 }
 
 .main-title {

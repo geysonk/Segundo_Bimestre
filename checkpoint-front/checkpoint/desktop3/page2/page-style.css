@@ -35,6 +35,7 @@ header{
     width: 100%;
     object-fit: cover;
     object-position: top;
+    margin-top: 50px;
 }
 
 .main-title {
@@ -86,7 +87,7 @@ article p {
     position: relative;
     left: -20px;
     border-radius: 12px;
-    margin: 32px;
+    margin: 92px;
     width: 1000px;
     height: 500px;
 }
